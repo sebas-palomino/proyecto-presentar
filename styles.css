@@ -1,5 +1,9 @@
 body{
     background-color: beige;
+    font-family: "Times New Roman", serif;
+}
+
+h1{
     text-align: center;
     font-family: "Times New Roman", serif;
 }
@@ -22,8 +26,9 @@ p{
 }
 
 .tarjeta{
+    font-family: 'Times New Roman', Times, serif;
     box-shadow: 5px 5px 30px rgb(243, 241, 241); 
-    background-color: #03363D;
+    background-color: rgb(13, 60, 4);
     padding: 20px;
     margin: 20px;
     border: 2px solid black;
@@ -35,4 +40,11 @@ p{
     flex-direction: column; /*direcciona de manera horizontal todos los elementos hacia una sola dirreccion*/
     align-items: center; /*la alineacion de los elementos*/
     justify-content: space-around;
+}
+
+img{
+    width: auto;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
 }

@@ -32,6 +32,7 @@ ul{
 }
 
 .tarjeta{
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     box-shadow: 5px 5px 30px rgb(243, 241, 241); 
     background-color: rgb(13, 60, 4);
